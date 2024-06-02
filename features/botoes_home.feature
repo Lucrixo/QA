@@ -1,4 +1,4 @@
-Feature: Cards Informativos
+Feature: Cards Informativos pagina Home
 
         Scenario botao avançar do carrossel cards informativos
 

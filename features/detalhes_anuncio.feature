@@ -1,7 +1,7 @@
 Feature: Conteudo apresentado no Anuncio
 
         Scenario Anuncio campos
-            Given estou na pagina de detalhemento do anuncio
+            Given que estou na pagina de detalhemento do anuncio
              When eu quero analisar o anuncio
              Then vejo as seguintes informações (Foto; Nome; Breve descrição; Preço; Anunciante; Local; Tipo de material;
              Quantidade; Botao “Conversar”; Botao “Ver Perfil”)
