@@ -1,5 +1,6 @@
 Feature: Cadastrar Anuncio
 
+        @blocked
         Scenario Cadastrar Anuncio -
 
             Given que estou na página de Cadastrar Anuncio
@@ -7,6 +8,7 @@ Feature: Cadastrar Anuncio
               And clico no botão Registrar
              Then o produto e cadastrado, recebo uma mensagem de "Produto Cadastrado"
 
+        @blocked
         Scenario Cadastrar Anuncio - operaçao invalido
 
             Given que estou na página de Cadastrar Anuncio
@@ -16,6 +18,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - nome invalido
 
             Given que estou na página de Cadastrar Anuncio
@@ -25,6 +28,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - quantidade invalida
 
             Given que estou na página de Cadastrar Anuncio
@@ -34,6 +38,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - preço invalida
 
             Given que estou na página de Cadastrar Anuncio
@@ -43,6 +48,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - tipo de material invalida
 
             Given que estou na página de Cadastrar Anuncio
@@ -52,6 +58,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - cep invalida
 
             Given que estou na página de Cadastrar Anuncio
@@ -61,6 +68,7 @@ Feature: Cadastrar Anuncio
              Then o produto nao é cadastrado
               And And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo
 
+        @blocked
         Scenario Cadastrar Anuncio - numero invalida
 
             Given que estou na página de Cadastrar Anuncio

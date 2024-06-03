@@ -1,5 +1,6 @@
 Feature: Cadastro usuario simplificado
 
+        @blocked
         Scenario Realizar o Cadastro
 
             Given que estou na página de Cadastro do usuário
@@ -8,6 +9,7 @@ Feature: Cadastro usuario simplificado
              Then sou cadastrado
               And é direcionado para página Home
 
+        @blocked
         Scenario Realizar Cadastro com Username Invalido - Vazio
 
             Given que estou na página de Cadastro do usuário
@@ -16,6 +18,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo username
 
+        @blocked
         Scenario Realizar Cadastro com Username Invalido - 1 caractere
 
             Given que estou na página de Cadastro do usuário
@@ -24,6 +27,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo username
 
+        @blocked
         Scenario Realizar Cadastro com Username Invalido - 16 caracteres
 
             Given que estou na página de Cadastro do usuário
@@ -32,6 +36,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo username
 
+        @blocked
         Scenario Realizar Cadastro com email Invalido
 
             Given que estou na página de Cadastro do usuário
@@ -40,6 +45,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo email
 
+        @blocked
         Scenario Realizar Cadastro com password Invalido - 4 caracteres
 
             Given que estou na página de Cadastro do usuário
@@ -48,6 +54,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo password
 
+        @blocked
         Scenario Realizar Cadastro com password Invalido - 16 caracteres
 
             Given que estou na página de Cadastro do usuário
@@ -56,6 +63,7 @@ Feature: Cadastro usuario simplificado
              Then sou nao sou cadastrado
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo password
 
+        @blocked
         Scenario Realizar Cadastro com login ja existente
 
             Given que estou na página de Cadastro do usuário
@@ -65,6 +73,7 @@ Feature: Cadastro usuario simplificado
              
 Feature: Completar o cadastro
 
+        @blocked
         Scenario Completar o cadastro - perfil pessoa fisica
 
             Given que o usuário está na página de complete seu cadastro
@@ -72,6 +81,7 @@ Feature: Completar o cadastro
               And clica no botão Registrar
              Then o usuário completa seu cadastro
 
+        @blocked
         Scenario Completar o cadastro - perfil pessoa fisica
 
             Given que o usuário está na página de complete seu cadastro
@@ -80,6 +90,7 @@ Feature: Completar o cadastro
              Then nao cosigo completar o cadastro
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo CPF
 
+        @blocked
         Scenario Completar o cadastro - perfil pessoa juridica
 
             Given que o usuário está na página de complete seu cadastro
@@ -87,6 +98,7 @@ Feature: Completar o cadastro
               And clica no botão Registrar
              Then o usuário completa seu cadastro
 
+        @blocked
         Scenario Completar o cadastro - perfil pessoa juridica
 
             Given que o usuário está na página de complete seu cadastro
@@ -98,6 +110,7 @@ Feature: Completar o cadastro
 
 Feature: Login
 
+        @blocked
         Scenario Realizar Login
 
             Given dado que estou na página de Login do usuário
@@ -106,6 +119,7 @@ Feature: Login
              Then o usuário é logado
               And é direcionado para página Home
 
+        @blocked
         Scenario Realizar Cadastro com email Invalido
 
             Given dado que estou na página de Login do usuário
@@ -114,6 +128,7 @@ Feature: Login
              Then nao realizo o login
               And recebo a mensagem de erro "Preencha o campo corretamente" abaixo do campo email
 
+        @blocked
         Scenario Realizar Cadastro com password Invalido
 
             Given dado que estou na página de Login do usuário

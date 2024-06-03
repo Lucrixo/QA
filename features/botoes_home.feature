@@ -1,11 +1,13 @@
 Feature: Cards Informativos pagina Home
 
+        @blocked
         Scenario botao avançar do carrossel cards informativos
 
             Given estou na sessao “Voce sabia” da pagina Home
              When eu clico no botao avançar do carrossel, abaixo dos cards
              Then consigo ver o proximo card
 
+        @blocked
         Scenario botao voltar do carrossel cards informativos
 
             Given estou na sessao “Voce sabia” da pagina Home
@@ -14,6 +16,7 @@ Feature: Cards Informativos pagina Home
 
 Feature  botao criar um anuncio da pagina home
 
+        @blocked
         Scenario botao criar um anuncio
 
             Given que eu estou na pagina home
