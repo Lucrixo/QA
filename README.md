@@ -1,4 +1,4 @@
-# QA
+# README
 
  Nosso Projeto, que se trata do WebSite Vem Vai, tem por objetivo conectar consumidores, empresas e coletadores de materiais recicláveis para otimizar a logística e aumentar a eficiência na gestão de resíduos do Estado de São Paulo. A idéia foi criar uma rede para simplificar a compra e venda de materiais reutilizáveis, afim aumentar a economia circular. 
 Nossa equipe de QA's foi reponsável pela criação  de casos de teste, análise da qualidade da plataforma, testes e bugs, e também pela criação dos requisitos e documentação do projeto, juntamente com a equipe de DEV's.
